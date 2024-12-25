@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+/* #main {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1726931467680-713bb3f432f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    
+} 
+#overlays {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.279);
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+#overlays h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%
+    transform: translate(-50%, -50%);
+    font- size: 100px;
+    font-weight: 400;
+    font-family: "helvetica now display";
+    
+}
+
+    
+    button{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        width: 260px;
+        height: 45px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid white;
+        transform: translate(-50%, -50%);
+        font-family: "helvetica now display";
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    button:hover {
+        background-color: #fff;
+        color: #000;
+
+    }
+    #bg {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(76, 223, 174, 0.642);
+    }
+    img {
+        height: 80%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    #img1 {
+        left:25%;
+    }
+
+    #img2 {
+        left:50%;
+    }
+
+    #img3 {
+        left:75%;
+    }
+
+    img:hover {
+        height: 60%;
+    } */
+     .bg{
+        height:100%;
+        width:100%;
+        background-color: rgba(155, 127, 150, 0.058);
+     }
+     .box{
+        position:absolute;
+        height: 100%;
+        width:560px;
+        z-index:100;
+        background-image:url(https://fuckingyoung.es/wp-content/uploads/2014/09/Bei-Kuo-SS15-Lookbook_fy12.jpg);
+        background-size:cover;
+        left:55%;
+     }
+     .circle{
+        position:absolute;
+        height:80px;
+        width:80px;
+        left:-40px;
+        top: 50%;
+        background-color:red;
+        transform:translate(0, -50%);
+        border-radius:50%;
+        box-shadow:0px 10px  35px #ce2929d8;
+     }
+     .extra{
+        position:absolute;
+        height:100%;
+        width:11%;
+        right:0px;
+        background-color: black
+     }
+     .d1{
+        height:50%;
+        width:100%;
+        background-color:red
+     }
+    
+    
+     
+     i{
+        position:absolute;
+        top: 50%;
+        left:53%;
+        transform:translate(-50%, -50%);
+        font-size:30px;
+        color:#ceecf3;
+     } 
+     
+  
+

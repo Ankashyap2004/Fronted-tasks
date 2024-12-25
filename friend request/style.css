@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle, rgba(65, 105, 225, 0.7), rgba(30, 60, 200, 0.5));
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+#card{
+    height: 500px;
+    width: 350px;px ;
+    background-color:azure;
+    border-radius: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+#card img{
+    height: 120px;
+    width:120px ;
+    border-radius: 50%; 
+    object-fit: cover;
+    object-position: center;
+}
+#card h5{
+    color: rgba(255, 0, 0, 0.616);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.3s ease;
+}
+#card p{
+    color:rebeccapurple;
+    font-size: 15px;
+}
+#card button{
+    padding: 8px 20px;
+    background-color: rgb(121, 200, 253);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#card button:hover {
+    background-color: rgb(100, 180, 240);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+#card button:focus {
+    outline: 3px solid rgba(65, 105, 225, 0.5);
+    outline-offset: 2px;
+}
+
+

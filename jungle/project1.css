@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width:100%;
+    height:100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1603976328262-4c1b46d7e6e8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+#child1{
+    height: 400px;
+    width: 300px;
+    background-color: crimson;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+#child2{
+    height:400px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#child3{
+    height:400px;
+    width:300px;
+    background-color: blue;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+#child1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+
+}
+#child2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+#child3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition:all ease 0.5s;
+}
+#child1:hover img{
+    transform :scale(1.2);
+}
+#child2:hover img{
+    transform:scale(1.2);
+}
+#child3:hover img{
+    transform:scale(1.2);
+}
+h1{
+    font-size: 70px;
+    color:brown;
+    position: absolute;
+    top: 5%;
+    font-family: K Kesah Rumiyin;
+    font-weight: 100;
+    -webkit-text-stroke: 2px black;
+}
+h2{
+    font-size:50px;
+    color:red;
+    position:absolute;
+    bottom:5%;
+    right:3%;
+    font-family: K Kesah Rumiyin;
+    font-weight: 30;
+    -webkit-text-stroke: 2px rgba(255, 0, 0, 0.214);
+}
