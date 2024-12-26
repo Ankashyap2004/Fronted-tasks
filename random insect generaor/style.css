@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Helvetica Now Display', sans-serif;
+    overflow: hidden;
+}
+.full{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+        position: fixed;
+        z-index: -1;
+    }
+ .btn{
+        padding: 10px 20px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 20px;
+        background-color: aqua;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        z-index: 1;
+        transition: background-color 0.3s ease;
+    }
+    .btn:hover{
+        background-color: #0056b3 ;
+    }
