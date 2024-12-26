@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Helvetica Now Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.17);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.btn{
+    width: 80px;
+    height: 50px;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    color: beige;
+}
+.btn:active{
+    scale: 1.1;
+
+}
